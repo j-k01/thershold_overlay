@@ -19,7 +19,7 @@ board_notebooks_dir = os.environ['PYNQ_JUPYTER_NOTEBOOKS']
 def copy_overlays():
     src_ol_dir = repo_board_folder
     dst_ol_dir = os.path.join(os.environ['HOME'], 'pynq','overlays','threshold_overlay')
-    if not os.path.exists(dst_nd_dir):
+    if not os.path.exists(dst_ol_dir):
         os.mkdir(dst_ol_dir)
     copy_tree(src_ol_dir, dst_ol_dir)
     #hw_data_files.extend([os.path.join("..", dst_ol_dir, f) for f in os.listdir(dst_ol_dir)])
