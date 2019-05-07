@@ -11,7 +11,7 @@ setup(
     license = 'MIT',
     author = "John Kincaid",
     author_email = "john.kincaid@ucdenver.com",
-    packages = ['treshold_overlay'],
+    packages = ['threshold_overlay'],
     package_data = {
     '' : ['*.bit','*.tcl','*.py','*.so'],
     },
