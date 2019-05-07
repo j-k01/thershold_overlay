@@ -6,7 +6,7 @@ import shutil
 
 setup(
     name = "threshold_overlay",
-    version = new_overlay.__version__,
+    version = '1',
     url = 'https://github.com/j-k01/thershold_overlay',
     license = 'MIT',
     author = "John Kincaid",
