@@ -1,2 +1,4 @@
 # thershold_overlay
-pip install-able overlay implementing image shareholding. Img > DMA > (Thresholding) > OUT.
+pip install-able overlay implementing image threshholding. 
+
+Img > DMA > (Thresholding) > OUT.
