@@ -26,7 +26,7 @@ def copy_overlays():
 # copy notebooks to jupyter home
 
 def copy_notebooks():
-    src_nb_dir = os.path.join(repo_board_folder, 'notebooks')
+    src_nb_dir = os.path.join(repo_board_folder, 'notebook')
     dst_nb_dir = os.path.join(board_notebooks_dir, 'treshold_overlay')
     if os.path.exists(dst_nb_dir):
         shutil.rmtree(dst_nb_dir)
