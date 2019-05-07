@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import subprocess
 import sys
 import shutil
-import threshold_overlay
+#import threshold_overlay
 
 setup(
     name = "threshold_overlay",
