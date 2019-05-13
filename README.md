@@ -1,4 +1,3 @@
-# thershold_overlay
-pip install-able overlay implementing image threshholding. 
-
+# image_processing_overlays
+overlays implementing thresholding and sobel filters
 Img > DMA > (Thresholding) > OUT.
